@@ -11,6 +11,10 @@
 		E20EAA7D24C4DC4700314451 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20EAA7C24C4DC4700314451 /* ContentView.swift */; };
 		E20EAA7F24C4DC5300314451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20EAA7E24C4DC5300314451 /* Assets.xcassets */; };
 		E20EAA8224C4DC5300314451 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20EAA8124C4DC5300314451 /* Preview Assets.xcassets */; };
+		E20EAA8B24C4DCC700314451 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20EAA8A24C4DCC700314451 /* MemoryGame.swift */; };
+		E20EAA8D24C4DE5500314451 /* MemoryGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20EAA8C24C4DE5500314451 /* MemoryGameViewModel.swift */; };
+		E20EAA8F24C52F0700314451 /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20EAA8E24C52F0700314451 /* Emojis.swift */; };
+		E20EAA9124C5348500314451 /* emojis.json in Resources */ = {isa = PBXBuildFile; fileRef = E20EAA9024C5348500314451 /* emojis.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E20EAA7E24C4DC5300314451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20EAA8124C4DC5300314451 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E20EAA8324C4DC5300314451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20EAA8A24C4DCC700314451 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		E20EAA8C24C4DE5500314451 /* MemoryGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewModel.swift; sourceTree = "<group>"; };
+		E20EAA8E24C52F0700314451 /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
+		E20EAA9024C5348500314451 /* emojis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emojis.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +60,12 @@
 		E20EAA7924C4DC4700314451 /* Memorize14 */ = {
 			isa = PBXGroup;
 			children = (
+				E20EAA8924C4DCB500314451 /* Model */,
 				E20EAA7A24C4DC4700314451 /* Memorize14App.swift */,
 				E20EAA7C24C4DC4700314451 /* ContentView.swift */,
 				E20EAA7E24C4DC5300314451 /* Assets.xcassets */,
 				E20EAA8324C4DC5300314451 /* Info.plist */,
+				E20EAA9024C5348500314451 /* emojis.json */,
 				E20EAA8024C4DC5300314451 /* Preview Content */,
 			);
 			path = Memorize14;
@@ -67,6 +77,16 @@
 				E20EAA8124C4DC5300314451 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E20EAA8924C4DCB500314451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E20EAA8A24C4DCC700314451 /* MemoryGame.swift */,
+				E20EAA8C24C4DE5500314451 /* MemoryGameViewModel.swift */,
+				E20EAA8E24C52F0700314451 /* Emojis.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20EAA9124C5348500314451 /* emojis.json in Resources */,
 				E20EAA8224C4DC5300314451 /* Preview Assets.xcassets in Resources */,
 				E20EAA7F24C4DC5300314451 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20EAA8B24C4DCC700314451 /* MemoryGame.swift in Sources */,
 				E20EAA7D24C4DC4700314451 /* ContentView.swift in Sources */,
+				E20EAA8F24C52F0700314451 /* Emojis.swift in Sources */,
 				E20EAA7B24C4DC4700314451 /* Memorize14App.swift in Sources */,
+				E20EAA8D24C4DE5500314451 /* MemoryGameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
